@@ -24,3 +24,4 @@
 .brand-logo{display:block;width:39px;height:39px;object-fit:contain}.footer-brand .brand-logo{width:39px;height:39px}
 @media(max-width:650px){.brand-logo{width:32px;height:32px}}
 @media(max-width:650px){.site-header .account-link{display:none!important}}
+@media(max-width:650px){.whatsapp-float{bottom:82px}}
