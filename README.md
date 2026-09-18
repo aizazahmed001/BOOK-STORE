@@ -1,4 +1,4 @@
-# Liberty Books Clone
+# Books Store PK
 
 A responsive React storefront demo with original placeholder content and a small Express API foundation.
 

@@ -1,5 +1,5 @@
 {
-  "name": "liberty-books-backend",
+  "name": "books-store-pk-server",
   "private": true,
   "version": "1.0.0",
   "type": "module",

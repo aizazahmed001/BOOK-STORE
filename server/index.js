@@ -24,7 +24,7 @@ app.use(cors({ origin: process.env.CLIENT_ORIGIN || 'http://localhost:5173' }))
 app.use(express.json())
 app.use(morgan('dev'))
 
-app.get('/api/health', (_req, res) => res.json({ success: true, message: 'Liberty Books API is ready' }))
+app.get('/api/health', (_req, res) => res.json({ success: true, message: 'Books Store PK API is ready' }))
 app.get('/api/products', (req, res) => {
 	const query = String(req.query.q || '').toLowerCase()
 	const category = String(req.query.category || '').toLowerCase()
@@ -68,7 +68,7 @@ app.get('/api/orders/:id', (req, res) => {
 })
 
 if (process.env.NODE_ENV !== 'production') {
-	app.listen(port, () => console.log(`Liberty Books API listening on http://localhost:${port}`))
+	app.listen(port, () => console.log(`Books Store PK API listening on http://localhost:${port}`))
 }
 
 export default app

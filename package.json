@@ -1,5 +1,5 @@
 {
-  "name": "liberty-books-clone",
+  "name": "books-store-pk",
   "private": true,
   "scripts": {
     "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
